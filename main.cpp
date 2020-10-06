@@ -2,9 +2,12 @@
 #include <iostream>
 #include "User.h"
 #include "login.cpp"
+#include "Display.h"
 
 int main() {
 
-	User Jorge;
-	Display();
-}
+	MainDisplay display;
+	//Display Main menu
+	display.menu();
+	return 0;
+};
